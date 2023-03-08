@@ -12,8 +12,8 @@ const db = new FakeDB([
     appoointments: [
       { name: 'Sterling Archer', time: '8:00AM', kind: 'New Patient' },
       { name: 'Cyril Figis', time: '8:00AM', kind: 'Follow-up' },
-      { name: 'Ray Gilette', time: '9:00AM', kind: 'Follow-up' },
       { name: 'Lana Kane', time: '9:30AM', kind: 'New Patient' },
+      { name: 'Ray Gilette', time: '9:00AM', kind: 'Follow-up' },
       { name: 'Pam Poovery', time: '8:00AM', kind: 'New Patient' },
     ]
   },
@@ -34,9 +34,9 @@ const db = new FakeDB([
     lastName: 'Nick',
     email: 'riviery@notablehealth.com',
     appoointments: [
-      { name: 'Sterling Archer', time: '8:00AM', kind: 'New Patient' },
       { name: 'Cyril Figis', time: '8:00AM', kind: 'Follow-up' },
       { name: 'Ray Gilette', time: '9:00AM', kind: 'Follow-up' },
+      { name: 'Sterling Archer', time: '8:00AM', kind: 'New Patient' },
       { name: 'Lana Kane', time: '9:30AM', kind: 'New Patient' },
       { name: 'Pam Poovery', time: '8:00AM', kind: 'New Patient' },
     ]
